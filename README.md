@@ -2,18 +2,18 @@
 
 # docker-mirror
 
-[![Auth](https://img.shields.io/badge/Auth-eryajf-ff69b4)](https://github.com/eryajf)
-[![GitHub contributors](https://img.shields.io/github/contributors/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/graphs/contributors)
-[![GitHub Issues](https://img.shields.io/github/issues/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/pulls)
-[![GitHub Pull Requests](https://img.shields.io/github/stars/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/stargazers)
-[![HitCount](https://views.whatilearened.today/views/github/eryajf/thanks-mirror.svg)](https://github.com/eryajf/thanks-mirror)
-[![GitHub license](https://img.shields.io/github/license/eryajf/thanks-mirror)](https://github.com/eryajf/thanks-mirror/blob/main/LICENSE)
-[![](https://img.shields.io/badge/Awesome-MyStarList-c780fa?logo=Awesome-Lists)](https://github.com/eryajf/awesome-stars-eryajf#readme)
+[![Auth](https://img.shields.io/badge/Auth-gebangfeng-ff69b4)](https://github.com/gebangfeng)
+[![GitHub contributors](https://img.shields.io/github/contributors/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/graphs/contributors)
+[![GitHub Issues](https://img.shields.io/github/issues/gebangfeng/docker-mirror.svg)](https://github.com/gebangfeng/docker-mirror/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/pulls)
+[![GitHub Pull Requests](https://img.shields.io/github/stars/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/stargazers)
+[![HitCount](https://views.whatilearened.today/views/github/gebangfeng/docker-mirror.svg)](https://github.com/gebangfeng/docker-mirror)
+[![GitHub license](https://img.shields.io/github/license/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/blob/main/LICENSE)
+[![](https://img.shields.io/badge/Awesome-MyStarList-c780fa?logo=Awesome-Lists)](https://github.com/gebangfeng/awesome-stars-gebangfeng#readme)
 
 <p> 多平台容器镜像代理服务,支持 Docker Hub, GitHub, Google, k8s, Quay, Microsoft 等镜像仓库. </p>
 
-<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="800"  height="3">
+<img src="https://cdn.jsdelivr.net/gh/gebangfeng/tu@main/img/image_20240420_214408.gif" width="800"  height="3">
 </div><br>
 
 本项目灵感来自：[package-manager-proxy-settings](https://github.com/comwrg/package-manager-proxy-settings)，该项目分享的是包管理器配置代理的方法，这里分享的是包管理器直接可用，质量好，速度快的镜像，以及一些其他常用软件，系统镜像的国内镜像。
