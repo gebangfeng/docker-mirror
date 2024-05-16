@@ -117,16 +117,16 @@ grep -n image: install.yaml
 22531:        image: quay.io/argoproj/argocd:v2.11.0
 22825:        image: quay.io/argoproj/argocd:v2.11.0
 ```
-## 在表格中找到仓库地址对应的镜像地址
+## 第二步：在表格中找到仓库地址对应的镜像地址
 如 *quay.io* 在表格中的镜像地址可选择*quay.nju.edu.cn*
 *ghcr.io* 在表格中的镜像地址可选择 *ghcr.nju.edu.cn*
 
-## 使用sed替换仓库地址为镜像地址
+## 第三步：使用sed替换仓库地址为镜像地址
 ```
 sed -i 's#quay.io#quay.nju.edu.cn#g' install.yaml
 sed -i 's#ghcr.io#ghcr.nju.edu.cn#g' install.yaml
 ```
-## 检查修改后的
+## 第四步：检查修改后的
 ```
 grep -n image: install.yaml
 21645:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
