@@ -1,5 +1,5 @@
 # docker-mirror
-<table border="1" align=center>
+<table border="1">
   <tr>
     <th>仓库地址</th>
     <th>镜像地址</th>
