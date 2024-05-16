@@ -27,12 +27,12 @@
     <th>备注</th>
   </tr>
   <tr>
-    <td rowspan="2">gcr.io</td>
-    <td>gcr.nju.edu.cn</td>
+    <td rowspan="2">ghcr.io</td>
+    <td>ghcr.nju.edu.cn</td>
     <td>南京大学开源镜像站, nexus3</td>
   </tr>
   <tr>
-    <td style="color: red;">gcr.tencentcloudcr.com</td>
+    <td style="color: red;">ghcr.tencentcloudcr.com</td>
     <td>仅腾讯云vpc内部访问，registry2 proxy</td>
   </tr>
   <tr>
@@ -97,3 +97,45 @@
     <td>国内可用，更新慢</td>
   </tr>
 </table>
+
+
+# 使用方法
+## 以argocd 清单文件为例：
+```
+wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
+## 第一步：确定原始镜像地址仓库
+```
+grep -n image: install.yaml
+21645:        image: quay.io/argoproj/argocd:v2.11.0
+21739:        image: ghcr.io/dexidp/dex:v2.38.0
+21768:        image: quay.io/argoproj/argocd:v2.11.0
+21850:        image: quay.io/argoproj/argocd:v2.11.0
+21927:        image: redis:7.0.14-alpine
+22162:        image: quay.io/argoproj/argocd:v2.11.0
+22214:        image: quay.io/argoproj/argocd:v2.11.0
+22531:        image: quay.io/argoproj/argocd:v2.11.0
+22825:        image: quay.io/argoproj/argocd:v2.11.0
+```
+## 在表格中找到仓库地址对应的镜像地址
+如 *quay.io* 在表格中的镜像地址可选择*quay.nju.edu.cn*
+*ghcr.io* 在表格中的镜像地址可选择 *ghcr.nju.edu.cn*
+
+## 使用sed替换仓库地址为镜像地址
+```
+sed -i 's#quay.io#quay.nju.edu.cn#g' install.yaml
+sed -i 's#ghcr.io#ghcr.nju.edu.cn#g' install.yaml
+```
+## 检查修改后的
+```
+grep -n image: install.yaml
+21645:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+21739:        image: ghcr.nju.edu.cn/dexidp/dex:v2.38.0
+21768:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+21850:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+21927:        image: redis:7.0.14-alpine
+22162:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+22214:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+22531:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+22825:        image: quay.nju.edu.cn/argoproj/argocd:v2.11.0
+```
