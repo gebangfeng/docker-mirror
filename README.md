@@ -17,3 +17,42 @@
 | docker.m.daocloud.io            |                                    | 国内可用, 带宽低                                         |
 | hub-mirror.c.163.com           |                                    | 国内可用，更新慢                                         |
 | ******.mirror.aliyuncs.com     |                                    | 国内可用，更新慢                                         |
+
+
+
+<table>
+    <tr>
+        <td>ICMP 报文种类</td>
+        <td>类型值</td>
+        <td>ICMP 报文类型</td>
+    </tr>
+    <tr>
+        <td rowspan=5 colspan=1>差错报告报文</td>
+        <td rowspan=1 colspan=2>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>源点抑制</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>超时</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>参数问题</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>改变路由</td>
+    </tr>
+    <tr>
+        <td rowspan=2>询问报文</td>
+        <td>8/0</td>
+        <td>(Echo)请求/应答</td>
+    </tr>
+    <tr>
+        <td>13/14</td>
+        <td>时间戳(TimeStamp)请求/应答</td>
+    </tr>
+</table></table>
