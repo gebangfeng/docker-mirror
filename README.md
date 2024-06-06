@@ -26,7 +26,7 @@
   </tr>
   <tr>
     <td rowspan="2">ghcr.io</td>
-    <td>[ghcr.nju.edu.cn](https://ghcr.nju.edu.cn)</td>
+    <td>ghcr.nju.edu.cn</td>
     <td>南京大学开源镜像站, nexus3</td>
   </tr>
   <tr>
