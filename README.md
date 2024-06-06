@@ -8,8 +8,6 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/pulls)
 [![GitHub Pull Requests](https://img.shields.io/github/stars/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/stargazers)
 [![HitCount](https://views.whatilearened.today/views/github/gebangfeng/docker-mirror.svg)](https://github.com/gebangfeng/docker-mirror)
-[![GitHub license](https://img.shields.io/github/license/gebangfeng/docker-mirror)](https://github.com/gebangfeng/docker-mirror/blob/main/LICENSE)
-[![](https://img.shields.io/badge/Awesome-MyStarList-c780fa?logo=Awesome-Lists)](https://github.com/gebangfeng/awesome-stars-gebangfeng#readme)
 
 <p> 多平台容器镜像代理服务,支持 Docker Hub, GitHub, Google, k8s, Quay, Microsoft 等镜像仓库. </p>
 
