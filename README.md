@@ -43,20 +43,16 @@
     <td>南京大学开源镜像站, nexus3</td>
   </tr>
   <tr>
-   <td rowspan="3">k8s.gcr.io</td>
+   <td rowspan="2">k8s.gcr.io</td>
     <td>gcr.nju.edu.cn</td>
     <td>南京大学开源镜像站, nexus3</td>
-  </tr>
-  <tr>
-    <td style="color: red;">k8s-gcr-io.mirrors.sjtug.sjtu.edu.cn</td>
-    <td>上海交通大学</td>
   </tr>
   <tr>
     <td style="color: red;">k8s.tencentclouacr.com</td>
     <td>仅腾讯, 云vpc内部访问, registry2 proxy</td>
   </tr>
   <tr>
-    <td rowspan="3">quay.io</td>
+    <td rowspan="2">quay.io</td>
     <td>quay.nju.edu.cn</td>
     <td>南京大学开源镜像站, nexus3</td>
   </tr>
@@ -65,12 +61,8 @@
     <td>仅腾讯云vpc内部访问, registry2 proxy</td>
   </tr>
   <tr>
-    <td style="color: red;">quay.mirrors.ustc.edu.cn</td>
-    <td>中科大</td>
-  </tr>
-  <tr>
   <td rowspan="2">nvcr.io</td>
-    <td>nvcr.nju.edu.cn</td>
+    <td>nver.nju.edu.cn</td>
     <td>南京大学开源镜像站, nexus3</td>
   </tr>
   <tr>
@@ -78,7 +70,7 @@
     <td>仅腾讯云vpc内部访问, registry2 proxy</td>
   </tr>
   <tr>
-  <td rowspan="7">docker.io</td>
+  <td rowspan="6">docker.io</td>
    <td style="color: red;">mirror.ccs.tencentyun.com</td>
     <td>仅腾讯云vpc内部访问, registry2 proxy</td>
   </tr>
@@ -87,17 +79,8 @@
     <td>南京大学开源镜像站, nexus3</td>
   </tr>
   <tr>
-    <td>docker.mirrors.sjtug.sjtu.edu.cn</td>  
+    <td>docker.mirrors.situg.situ.edu.cn</td>  
     <td>上海交通大学, registry2 proxy</td>
-  </tr>
-    <tr>
-    <td>reg-mirror.qiniu.com</td>
-    <td>七牛云</td>
-  </tr>
-    </tr>
-    <tr>
-    <td>docker.mirrors.ustc.edu.cn</td>
-    <td>中科大</td>
   </tr>
   <tr>
     <td>docker.m.daocloud.io</td>
@@ -105,10 +88,14 @@
   </tr>
   <tr>
     <td>hub-mirror.c.163.com</td>
-    <td>网易国内可用，更新慢</td>
+    <td>国内可用，更新慢</td>
   </tr>
-
+  <tr>
+    <td>*****.mirror.aliyuncs.com</td>
+    <td>国内可用，更新慢</td>
+  </tr>
 </table>
+
 
 
 # 使用方法
