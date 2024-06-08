@@ -1,3 +1,5 @@
+# 📢注意
+项目已经移动到：[docker-registry-mirrors](https://github.com/kubesre/docker-registry-mirrors)
 <div align="center">
 
 # docker-mirror
